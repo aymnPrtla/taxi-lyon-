@@ -1,9 +1,12 @@
+media:
+  input: assets
+  output: /assets
 content:
   - name: homepage
     label: Page d'accueil
     type: file
     file: index.html
     fields:
-      - name: content
-        label: Contenu
+      - name: body
+        label: Contenu du site
         type: rich-text
