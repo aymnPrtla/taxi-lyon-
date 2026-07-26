@@ -6,6 +6,11 @@
     <title>Administration</title>
     <link href="https://taxi-lyon.netlify.app/admin/config.yml" type="text/yaml" rel="cms-config-url" />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <style>
+      /* Masque la colonne de prévisualisation vide */
+      [class*="Pane2"] { display: none !important; }
+      [class*="Pane1"] { width: 100% !important; }
+    </style>
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
