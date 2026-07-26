@@ -1,9 +1,9 @@
 content:
-  - name: page
-    label: Contenu du site
+  - name: homepage
+    label: Page d'accueil
     type: file
     file: index.html
     fields:
       - name: body
-        label: Texte
-        type: rich-text
+        label: Contenu de la page
+        type: code
