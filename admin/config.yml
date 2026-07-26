@@ -9,9 +9,10 @@ collections:
     label: Pages
     files:
       - file: index.html
-        label: Accueil
+        label: Page d'Accueil
         name: index
         fields:
-          - label: Titre
-            name: title
-            widget: string
+          - { label: "Titre principal", name: title, widget: string }
+          - { label: "Numéro de Téléphone", name: phone, widget: string }
+          - { label: "Adresse E-mail", name: email, widget: string }
+          - { label: "Texte Présentation", name: description, widget: text }
