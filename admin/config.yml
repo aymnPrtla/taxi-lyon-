@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "pages"
+    label: "Pages du site"
+    files:
+      - file: "index.html"
+        label: "Page d'accueil"
+        name: "index"
+        fields:
+          - {label: "Contenu de la page", name: "body", widget: "code", default_language: "html"}
