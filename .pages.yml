@@ -4,12 +4,9 @@ media:
 content:
   - name: pages
     label: Pages du site
-    type: files
-    files:
-      - name: home
-        label: Page d'accueil (index.html)
-        file: index.html
-        fields:
-          - name: body
-            label: Contenu HTML
-            type: rich-text
+    type: file
+    file: index.html
+    fields:
+      - name: body
+        label: Contenu du site
+        type: rich-text
