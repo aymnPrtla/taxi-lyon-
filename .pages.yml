@@ -1,0 +1,12 @@
+media:
+  input: assets
+  output: /assets
+content:
+  - name: pages
+    label: Pages du site
+    type: collection
+    path: /
+    files:
+      - name: home
+        label: Page d'accueil
+        file: index.html
